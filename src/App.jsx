@@ -118,13 +118,13 @@ function App() {
       {/* Achievements */}
       <Stats />
       <Achievements />
-
+      <Patent />
       <div id="projects">
 
         <Projects />
       </div>
 
-      <Patent />
+
       {/* Patent Section */}
 
       {/* Skills Section */}
