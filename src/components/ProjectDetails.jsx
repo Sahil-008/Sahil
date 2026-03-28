@@ -9,8 +9,8 @@ function ProjectDetails() {
   const { id } = useParams()
   const navigate = useNavigate()
   useEffect(() => {
-  window.scrollTo(0, 0)
-}, [])
+    window.scrollTo(0, 0)
+  }, [])
 
   const projects = {
     productivity: {
@@ -114,6 +114,37 @@ Real-world data noise → cleaned through preprocessing pipeline`,
       github:
         "https://github.com/Sahil-008/ChurnSense-Understand-customer-churn-trends-with-clarity"
     },
+
+    gc: {
+      title: "Efficient Garbage Collection",
+      image: colltion,
+      description:
+        "Optimized memory management system.",
+      problem:
+        "Memory leaks and inefficient memory utilization in low-level systems degrade performance and can lead to crashes. Manual memory management in languages like C/C++ makes it difficult to track unused memory and reclaim it effectively.",
+      approach: [
+        "Designed a custom garbage collection mechanism inspired by mark-and-sweep",
+        "Implemented memory tracking to identify allocated and reachable objects",
+        "Built a garbage detection system to isolate unused memory blocks",
+        "Optimized memory reuse using efficient allocation strategies",
+        "Simulated heap management to test allocation and deallocation cycles"
+      ],
+      features: [
+        "Memory tracking",
+        "Garbage detection",
+        "Optimization"
+      ],
+      impact: "Improved memory efficiency.",
+      tech: ["C++", "Operating Systems Concepts", "Memory Management"],
+      Results: `Reduced memory wastage by ~80–90% in test simulations
+Improved memory reuse through optimized allocation
+Achieved stable execution across multiple allocation/deallocation cycles`,
+      Challenges: `Tracking active memory references → solved using structured memory mapping
+Avoiding memory corruption → ensured safe allocation boundaries
+Performance overhead of GC → minimized unnecessary scans and optimized logic`,
+      github: "https://github.com/Sahil-008/Efficient_Garbage_Collage_In_Operating_System"
+    },
+
 
     revstack: {
       title: "RevStack",
