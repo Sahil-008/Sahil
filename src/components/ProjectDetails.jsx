@@ -3,10 +3,14 @@ import ml from "../assets/ml.png"
 import revStack from "../assets/revStack.png"
 import churn from "../assets/churn.png"
 import colltion from "../assets/colltion.png"
+import { useEffect } from "react"
 
 function ProjectDetails() {
   const { id } = useParams()
   const navigate = useNavigate()
+  useEffect(() => {
+  window.scrollTo(0, 0)
+}, [])
 
   const projects = {
     productivity: {
