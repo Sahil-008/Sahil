@@ -65,7 +65,7 @@ features: [
 "Visualization"
 ],
 impact: "Improved retention insights.",
-tech: ["Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Imbalanced-learn, Jupyter Notebook],
+tech: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib", "Seaborn", "Imbalanced-learn", "Jupyter Notebook"],
 Results: `Successfully built a churn prediction system using real-world customer data
 Evaluated models using Accuracy, Precision, Recall, and F1-score
 Generated insights to identify high-risk customers for churn
