@@ -3,7 +3,6 @@ import Typing from "./components/Typing"
 import profileImg from "./assets/profile.jpeg"
 import { Routes, Route } from "react-router-dom"
 import { Link } from "react-scroll"
-
 import Achievements from "./components/Achievements"
 import Projects from "./components/Projects"
 import Stats from "./components/Stats"
