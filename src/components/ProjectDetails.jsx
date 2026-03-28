@@ -33,7 +33,7 @@ features: [
 "Visualization dashboard"
 ],
 impact: "Achieved ~90% accuracy.",
-tech: ["Python, Pandas, NumPy, Scikit-learn, XGBoost, LightGBM, Matplotlib/Seaborn"],
+tech: ["Python", "Pandas", "NumPy", "Scikit-learn", "XGBoost", "LightGBM", "Matplotlib/Seaborn"],
 Results: `Evaluated models using Accuracy, Precision, Recall, F1-score, ROC-AUC
 Identified best-performing model through systematic comparison
 Stored results in structured format (model_metrics.csv) for reproducibility
