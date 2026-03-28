@@ -47,6 +47,19 @@ id="projects" className="fixed inset-0 z-50 flex items-center justify-center bg-
         {selectedProject.impact}
       </p>
     </div>
+    <div className="mb-3">
+  <h3 className="font-semibold text-white">Results</h3>
+  <p className="text-gray-400 text-sm">
+    {selectedProject.Results}
+  </p>
+</div>
+
+<div className="mb-3">
+  <h3 className="font-semibold text-white">Challenges</h3>
+  <p className="text-gray-400 text-sm">
+    {selectedProject.Challenges}
+  </p>
+</div>
 
   </div>
 </div>
