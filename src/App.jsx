@@ -110,13 +110,13 @@ return (
       {/* STATS */}
       <Stats />
       <Achievements />
-
+      <Patent />
       {/* PROJECTS */}
       <div id="projects">
         <Projects />
       </div>
 
-      <Patent />
+
       <Skills />
       <Certificates />
       <Education />
